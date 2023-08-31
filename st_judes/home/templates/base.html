@@ -1,0 +1,329 @@
+{% comment %} {% load bootstrap4 %} {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--=============== CSS ===============-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>St. Judes Church Attenganam</title>
+  </head>
+  <body>
+    <div class="navigation-wrap bg-light start-header start-style">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <a
+                class="navbar-brand"
+                href="https://front.codes/"
+                target="_blank"
+                ><img src="https://assets.codepen.io/1462889/fcy.png" alt=""
+              /></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      href="#"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Home</a
+                    >
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Agency</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      data-toggle="dropdown"
+                      href="#"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Services</a
+                    >
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </div>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Journal</a>
+                  </li>
+                  <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section full-height">
+      <div class="absolute-center">
+        <div class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1>
+                  <span>S</span><span>t.</span> <span>J</span><span>U</span
+                  ><span>D</span><span>E</span><span>S </span><span> </span>
+                  <br />
+
+                  <span> C</span><span>H</span><span>U</span><span>R</span
+                  ><span>C</span><span>H</span>
+                </h1>
+                <p>Attenganam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div id="switch">
+                  <div id="circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-5 py-5"></div>
+
+    {% comment %} End Nav {% endcomment %}
+
+
+    {% block content %}
+
+    {% endblock content %}
+    
+
+    <!-- Footer================================================== -->
+
+    <footer>
+      <div class="footer-wrap">
+        <div class="container first_class">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="col-md-12">
+                {% comment %} <div class="standard_social_links">
+                  <div>
+                    <li class="round-btn btn-facebook">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="round-btn btn-instagram">
+                      <a href="#"
+                        ><i class="fab fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-whatsapp">
+                      <a href="#"
+                        ><i class="fab fa-whatsapp" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li class="round-btn btn-envelop">
+                      <a href="#"
+                        ><i class="fa fa-envelope" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div> {% endcomment %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second_class">
+          <div class="container second_class_bdr">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="footer-logo">
+                  <img
+                    src="http://localhost/lrn/img/footer_logo.png"
+                    alt="logo"
+                  />
+                </div>
+                
+
+                <div class="standard_social_links">
+                    <div>
+                      <li class="round-btn btn-facebook">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      </li>
+                      <li class="round-btn btn-instagram">
+                        <a href="#"
+                          ><i class="fab fa-instagram" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li class="round-btn btn-whatsapp">
+                        <a href="#"
+                          ><i class="fab fa-whatsapp" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li class="round-btn btn-envelop">
+                        <a href="#"
+                          ><i class="fa fa-envelope" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                    </div>
+                  </div>
+
+
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <h3>Quick LInks</h3>
+                <ul class="footer-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About us</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                <h3>triedge Events</h3>
+                <ul class="footer-links">
+                  <li><a href="#">Triedge Events</a></li>
+
+                  <li><a href="#">Jobs &AMP; Internship Fair 2019</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="container-fluid">
+            <div class="copyright">
+              Copyright {% now 'Y' %} |
+              <a href="https://augustinejoseph.github.io">Augustine. </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome 5 links-->
+    <script
+      src="https://kit.fontawesome.com/fddf5c0916.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      (function ($) {
+        "use strict";
+
+        $(function () {
+          var header = $(".start-style");
+          $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 10) {
+              header.removeClass("start-style").addClass("scroll-on");
+            } else {
+              header.removeClass("scroll-on").addClass("start-style");
+            }
+          });
+        });
+
+        //Animation
+
+        $(document).ready(function () {
+          $("body.hero-anime").removeClass("hero-anime");
+        });
+
+        //Menu On Hover
+
+        $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
+          if ($(window).width() > 750) {
+            var _d = $(e.target).closest(".nav-item");
+            _d.addClass("show");
+            setTimeout(function () {
+              _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+            }, 1);
+          }
+        });
+
+        //Switch light/dark
+
+        $("#switch").on("click", function () {
+          if ($("body").hasClass("dark")) {
+            $("body").removeClass("dark");
+            $("#switch").removeClass("switched");
+          } else {
+            $("body").addClass("dark");
+            $("#switch").addClass("switched");
+          }
+        });
+      })(jQuery);
+    </script>
+  </body>
+</html>
